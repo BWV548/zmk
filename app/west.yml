@@ -1,13 +1,13 @@
-  remotes:
-    - name: zephyrproject-rtos
-      url-base: https://github.com/zephyrproject-rtos
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: myfork
-      url-base: https://github.com/BWV548
+remotes:
+  - name: zephyrproject-rtos
+    url-base: https://github.com/zephyrproject-rtos
+  - name: zmkfirmware
+    url-base: https://github.com/zmkfirmware
+  - name: myfork
+    url-base: https://github.com/BWV548
 
-  projects:
-    - name: nanopb
-      remote: main
-      revision: zmk
-      path: modules/lib/nanopb
+projects:
+  - name: nanopb
+    remote: myfork
+    revision: zmk
+    path: modules/lib/nanopb
